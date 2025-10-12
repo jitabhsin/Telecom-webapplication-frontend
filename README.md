@@ -1,7 +1,7 @@
 
-# =========================================================
+
 # OTBSClient (Bharat Telecom Services) — README
-# =========================================================
+
 
 A Spring Boot Thymeleaf-based client web application for the OTBS system. 
 This repository contains the frontend/server-side UI that communicates 
@@ -17,7 +17,7 @@ with a backend REST API (configured via application properties).
 - Backend REST API running (see Configuration)
 
 **Build & Run:**
-```sh
+
 # Using Maven wrapper (recommended)
 ./mvnw clean package
 ./mvnw spring-boot:run
@@ -61,7 +61,7 @@ backend.api.helpdeskexecutive.base.url
 
 Edit this file or create src/main/resources/application.properties to point to your backend instance (default: http://localhost:8090).
 
-Project Structure (Important Files)
+# Project Structure (Important Files)
 Build & Meta
 
 pom.xml
@@ -86,7 +86,7 @@ Controllers
 
 com.otbs.controller.CustomerClientController
 
-Templates (Thymeleaf)
+# Templates (Thymeleaf)
 
 index.html, register.html, addPlan.html
 
@@ -100,7 +100,7 @@ Static Assets
 
 src/main/resources/static/css/bill.css
 
-Notes:
+# Notes:
 
 Templates use Thymeleaf expressions (th:...) for forms, links, and placeholders.
 
